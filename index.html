@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,8 +11,18 @@
 </head>
 
 <body>
-  <h1>Zeichnen</h1>
-
+  <h1>Etch-A-Sketch</h1>
+  <div class="mainpage">
+    <div class="choice">
+      <label for="rowcolumnchoice" class="choicelabel">Anzahl der Reihen/Spalten:</label>
+      <select type="number" id="size">
+      </select>
+      <button id="btnstart">Gitter erzeugen</button>
+      <button id="del">löschen</button>
+    </div>
+    <div id="container">
+    </div>
+  </div>
 
 </body>
 
